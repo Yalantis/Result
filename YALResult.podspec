@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YALResult'
   s.version          = '1.0'
-  s.summary          = 'Result type'
+  s.summary          = 'Result type '
   s.swift_version    = '4.2'
   s.description      = 'Result type'
   s.homepage         = 'https://github.com/Yalantis/Result'

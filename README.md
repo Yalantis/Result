@@ -7,7 +7,7 @@
 ````ruby
 use_frameworks!
 
-pod 'Result'
+pod 'YALResult'
 
 ````
 

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		88D6F3D02164E9FF00CF9F32 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D6F3CE2164E9FF00CF9F32 /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D6F3D72164EA1900CF9F32 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F3D62164EA1900CF9F32 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88D6F3CB2164E9FF00CF9F32 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D6F3CE2164E9FF00CF9F32 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
 		88D6F3CF2164E9FF00CF9F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D6F3D62164EA1900CF9F32 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				88D6F3CE2164E9FF00CF9F32 /* Result.h */,
+				88D6F3D62164EA1900CF9F32 /* Result.swift */,
 				88D6F3CF2164E9FF00CF9F32 /* Info.plist */,
 			);
 			path = Result;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					88D6F3CA2164E9FF00CF9F32 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D6F3D72164EA1900CF9F32 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		88D6F3D42164E9FF00CF9F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.Result;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		88D6F3D52164E9FF00CF9F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

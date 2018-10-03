@@ -1,13 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'Result'
+  s.name             = 'YALResult'
   s.version          = '1.0'
-  s.summary          = 'Result operator'
+  s.summary          = 'Result type'
   s.swift_version    = '4.2'
-
-  s.description      = <<-DESC
-Result operator
-                       DESC
-
+  s.description      = 'Result type'
   s.homepage         = 'https://github.com/Yalantis/Result'
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { 'Anton Vodolazkyi' => 'vodolazky@me.com' }

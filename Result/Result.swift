@@ -11,9 +11,6 @@ public enum Result<T> {
     
     case success(T)
     case failure(Error)
-}
-
-extension Result {
     
     public var value: T? {
         switch self {
@@ -68,7 +65,7 @@ extension Result {
     public func onError(_ f: (Error) -> Error) -> Result<T> {
         switch self {
         case .success(let value): return .success(value)
-        case .failure(let error): return .failure(error)
+        case .failure(let error): return .failure(f(error))
         }
     }
     

@@ -76,5 +76,4 @@ extension Result {
         case .failure(let error): fatalError("Value is required: \(error)")
         }
     }
-    
 }

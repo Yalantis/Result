@@ -1,13 +1,13 @@
 //
-//  Result.swift
-//  APIClient
+//  YALResult.swift
+//  Result
 //
 //  Created by Vodolazkyi Anton on 9/19/18.
 //
 
 import Foundation
 
-public enum Result<T> {
+public enum YALResult<T> {
     
     case success(T)
     case failure(Error)
@@ -27,10 +27,10 @@ public enum Result<T> {
     }
 }
 
-extension Result {
+extension YALResult {
     
     @discardableResult
-    public func map<U>(_ f: (T) -> U) -> Result<U> {
+    public func map<U>(_ f: (T) -> U) -> YALResult<U> {
         switch self {
         case .success(let t): return .success(f(t))
         case .failure(let error): return .failure(error)
@@ -38,7 +38,7 @@ extension Result {
     }
     
     @discardableResult
-    public func map<U>(_ f: () -> U) -> Result<U> {
+    public func map<U>(_ f: () -> U) -> YALResult<U> {
         switch self {
         case .success: return .success(f())
         case .failure(let error): return .failure(error)
@@ -46,7 +46,7 @@ extension Result {
     }
     
     @discardableResult
-    public func next<U>(_ f: (T) -> Result<U>) -> Result<U> {
+    public func next<U>(_ f: (T) -> YALResult<U>) -> YALResult<U> {
         switch self {
         case .success(let t): return f(t)
         case .failure(let error): return .failure(error)
@@ -54,7 +54,7 @@ extension Result {
     }
     
     @discardableResult
-    public func next<U>(_ f: () -> Result<U>) -> Result<U> {
+    public func next<U>(_ f: () -> YALResult<U>) -> YALResult<U> {
         switch self {
         case .success: return f()
         case .failure(let error): return .failure(error)
@@ -62,7 +62,7 @@ extension Result {
     }
     
     @discardableResult
-    public func onError(_ f: (Error) -> Error) -> Result<T> {
+    public func onError(_ f: (Error) -> Error) -> YALResult<T> {
         switch self {
         case .success(let value): return .success(value)
         case .failure(let error): return .failure(f(error))

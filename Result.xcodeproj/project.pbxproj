@@ -151,10 +151,11 @@
 				TargetAttributes = {
 					88D6F3CA2164E9FF00CF9F32 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					B8A80B2F217623E400BFEB9A = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -164,6 +165,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 88D6F3C12164E9FF00CF9F32;
 			productRefGroup = 88D6F3CC2164E9FF00CF9F32 /* Products */;
@@ -364,7 +366,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -389,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.Result;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -406,7 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.ResultTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -423,7 +425,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.ResultTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

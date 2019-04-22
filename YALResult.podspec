@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YALResult'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'Result type '
   s.swift_version    = '5.0'
   s.description      = 'Result type'

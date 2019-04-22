@@ -1,5 +1,5 @@
 //
-//  Result.h
+//  YALResult.h
 //  Result
 //
 //  Created by Vodolazkyi Anton on 10/3/18.

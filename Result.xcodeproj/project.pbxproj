@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88D6F3D02164E9FF00CF9F32 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D6F3CE2164E9FF00CF9F32 /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88D6F3D72164EA1900CF9F32 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F3D62164EA1900CF9F32 /* Result.swift */; };
+		88D6F3D02164E9FF00CF9F32 /* YALResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D6F3CE2164E9FF00CF9F32 /* YALResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D6F3D72164EA1900CF9F32 /* YALResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F3D62164EA1900CF9F32 /* YALResult.swift */; };
 		B8A80B33217623E400BFEB9A /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A80B32217623E400BFEB9A /* ResultTests.swift */; };
-		B8A80B35217623E400BFEB9A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D6F3CB2164E9FF00CF9F32 /* Result.framework */; };
+		B8A80B35217623E400BFEB9A /* YALResult.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D6F3CB2164E9FF00CF9F32 /* YALResult.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88D6F3CB2164E9FF00CF9F32 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88D6F3CE2164E9FF00CF9F32 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		88D6F3CB2164E9FF00CF9F32 /* YALResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YALResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D6F3CE2164E9FF00CF9F32 /* YALResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YALResult.h; sourceTree = "<group>"; };
 		88D6F3CF2164E9FF00CF9F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88D6F3D62164EA1900CF9F32 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		88D6F3D62164EA1900CF9F32 /* YALResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YALResult.swift; sourceTree = "<group>"; };
 		B8A80B30217623E400BFEB9A /* ResultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A80B32217623E400BFEB9A /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		B8A80B34217623E400BFEB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A80B35217623E400BFEB9A /* Result.framework in Frameworks */,
+				B8A80B35217623E400BFEB9A /* YALResult.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		88D6F3CC2164E9FF00CF9F32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88D6F3CB2164E9FF00CF9F32 /* Result.framework */,
+				88D6F3CB2164E9FF00CF9F32 /* YALResult.framework */,
 				B8A80B30217623E400BFEB9A /* ResultTests.xctest */,
 			);
 			name = Products;
@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				88D6F3CF2164E9FF00CF9F32 /* Info.plist */,
-				88D6F3CE2164E9FF00CF9F32 /* Result.h */,
-				88D6F3D62164EA1900CF9F32 /* Result.swift */,
+				88D6F3CE2164E9FF00CF9F32 /* YALResult.h */,
+				88D6F3D62164EA1900CF9F32 /* YALResult.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D6F3D02164E9FF00CF9F32 /* Result.h in Headers */,
+				88D6F3D02164E9FF00CF9F32 /* YALResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88D6F3CA2164E9FF00CF9F32 /* Result */ = {
+		88D6F3CA2164E9FF00CF9F32 /* YALResult */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88D6F3D32164E9FF00CF9F32 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildConfigurationList = 88D6F3D32164E9FF00CF9F32 /* Build configuration list for PBXNativeTarget "YALResult" */;
 			buildPhases = (
 				88D6F3C62164E9FF00CF9F32 /* Headers */,
 				88D6F3C72164E9FF00CF9F32 /* Sources */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = Result;
+			name = YALResult;
 			productName = Result;
-			productReference = 88D6F3CB2164E9FF00CF9F32 /* Result.framework */;
+			productReference = 88D6F3CB2164E9FF00CF9F32 /* YALResult.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B8A80B2F217623E400BFEB9A /* ResultTests */ = {
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88D6F3CA2164E9FF00CF9F32 /* Result */,
+				88D6F3CA2164E9FF00CF9F32 /* YALResult */,
 				B8A80B2F217623E400BFEB9A /* ResultTests */,
 			);
 		};
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D6F3D72164EA1900CF9F32 /* Result.swift in Sources */,
+				88D6F3D72164EA1900CF9F32 /* YALResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		B8A80B37217623E400BFEB9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88D6F3CA2164E9FF00CF9F32 /* Result */;
+			target = 88D6F3CA2164E9FF00CF9F32 /* YALResult */;
 			targetProxy = B8A80B36217623E400BFEB9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88D6F3D32164E9FF00CF9F32 /* Build configuration list for PBXNativeTarget "Result" */ = {
+		88D6F3D32164E9FF00CF9F32 /* Build configuration list for PBXNativeTarget "YALResult" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88D6F3D42164E9FF00CF9F32 /* Debug */,
